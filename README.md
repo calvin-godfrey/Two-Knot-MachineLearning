@@ -8,3 +8,7 @@ The files with the `.pkl` extension contain the generated knots in various state
 ## Knots.ipynb
 
 The file `Knots.ipynb` contains the actual training process from loading in the data, setting all the hyperparameters, and actually training the data. It also includes defining our three models and the training process, along with our accuracy results.
+
+## Generation.ipynb
+
+The file `Generation.ipynb` consists of code written in [SageMath](https://www.sagemath.org/), which based heavily off Python; if you can read Python code, you can read Sage code. Everything in the first cell consists of functions written last summer for the REU and is used to calculate the Alexander invariant for an arbitrary 2-knot using the Seifert-van Kampen theorem. The bottom-most cell was written for this project to generate arbitrary 2-knots and compute the corresponding Alexander invariant.
